@@ -588,11 +588,12 @@ a {
     background: #f9f9f9;
 }
 
-.footer__social-link:nth-child(2) {
+.footer__social-link + .footer__social-link {
     margin-left: 16px;
 }
-.footer__social-link:nth-child(3) {
-    margin-left: 16px;
+
+.footer__social-link:hover {
+    background: #ebebeb;
 }
 
 .row-bottom {
