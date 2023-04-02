@@ -46,16 +46,28 @@ a {
 
 /* header */
 
-.header {
+.fixed-header {
+    background: #e6f0ff;
+    padding: 12px 0;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     display: flex;
     align-items: center;
+    background: orange;
 }
 
 .navbar ul {
