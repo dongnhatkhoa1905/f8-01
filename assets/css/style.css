@@ -58,7 +58,7 @@ a {
 .hero-wrap {
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,6 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    background: orange;
 }
 
 .navbar ul {
@@ -316,7 +315,7 @@ a {
     display: flex;
     gap: 30px;
     margin-top: 70px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .featured__body {
