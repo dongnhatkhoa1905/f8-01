@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -49,7 +54,7 @@ a {
 .fixed-header {
     background: #e6f0ff;
     padding: 12px 0;
-    padding-top: 26px;
+    padding-top: 38px;
     position: sticky;
     top: -26px;
     z-index: 1;
@@ -62,6 +67,7 @@ a {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -100,16 +106,16 @@ a {
     margin-left: 18px;
 }
 
-.hero {
+.hero-wrap {
     /* position: absolute; */
     margin-top: 130px;
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -117,7 +123,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     font-weight: 700;
     font-size: 6.2rem;
@@ -126,7 +132,7 @@ a {
     margin-top: 10px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-weight: 400;
     font-size: 1.8rem;
@@ -134,12 +140,12 @@ a {
     color: #5a6473;
 }
 
-.hero .hero-ctn {
+.hero-wrap .hero-ctn {
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
